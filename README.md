@@ -1,1 +1,1 @@
-# ML-ILD: Machine learning based information leakage detection
+# ML-ILD: Machine learning based Information Leakage Detection
