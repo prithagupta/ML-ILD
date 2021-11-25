@@ -1,0 +1,29 @@
+INFORMEDNESS = "Informedness"
+MCC = "MathewsCorrelationCoefficient"
+COHENKAPPA = "Cohen-Kappa"
+ACCURACY = 'Accuracy'
+F1SCORE = 'F1-Score'
+AUC_SCORE = 'AUC-Score'
+CONFUSION_MATRIX_SINGLE = 'confusion_matrix_single'
+CONFUSION_MATRICES = 'confusion_matrices'
+METRICS = [ACCURACY, F1SCORE, AUC_SCORE, COHENKAPPA, MCC, INFORMEDNESS]
+BEST_PARAMETERS = 'Best-Parameters'
+TIME_TAKEN = 'HPO-Time'
+MODEL = 'Model'
+FOLD_ID = 'Fold-ID'
+DATASET = 'Dataset'
+MULTI_CLASS = 'Multi-Class'
+TTEST_PVAL = "ttest-pval"
+CTTEST_PVAL = "corrected-ttest-pval"
+
+WILCOXON_PVAL = 'wilcoxon-pval'
+FISHER_PVAL = 'fisher-pval'
+SCORE_KEY_FORMAT = '{}-scores-{}-fold-{}'
+PERMUTATION_KEY = 'permutation-scores'
+BERNOULLI_KEY = 'bernoulli-scores'
+NORMAL_SCORES = "NORMAL_SCORES"
+KEYS = [ACCURACY, CONFUSION_MATRIX_SINGLE, CONFUSION_MATRICES, F1SCORE, AUC_SCORE, COHENKAPPA, MCC, INFORMEDNESS,
+        TIME_TAKEN, BEST_PARAMETERS]
+EXTRA_KEYS = [PERMUTATION_KEY, BERNOULLI_KEY]
+LABEL_COL = 'label'
+MISSING_CCS_FIN = 'missing_ccs_fin'
