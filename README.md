@@ -16,15 +16,12 @@ Another option is to clone the repository and install PY-SCA using::
 
 Dependencies
 ------------
-MI-ILD depends on NumPy, SciPy, matplotlib, scikit-learn,
-joblib and tqdm. For data processing and generation you will
-also need and pandas.
+MI-ILD depends on NumPy, SciPy, matplotlib, scikit-learn, joblib and tqdm. For data processing and generation you will also need and pandas.
 
 Citing CS-Rank
 ----------------
 You can cite our `AISec`_::
 
-%detection
 	@inproceedings{autosca,
 		author = {Drees, Jan Peter and Gupta, Pritha and H\"{u}llermeier, Eyke and Jager, Tibor and Konze, Alexander and Priesterjahn, Claudia and Ramaswamy, Arunselvan and Somorovsky, Juraj},
 		title = {Automated Detection of Side Channels in Cryptographic Protocols: DROWN the ROBOTs!},
