@@ -6,6 +6,7 @@ This package is able to automatically test detect Information Leakage in a syste
 Installation
 ------------
 The latest release version of CS-Rank can be installed from Github as follows::
+	
 	pip install git+https://github.com/prithagupta/ML-ILD.git
 
 Another option is to clone the repository and install PY-SCA using::
