@@ -1,15 +1,19 @@
 # ML-ILD: Machine learning based Information Leakage Detection
 <img src="documentation/logos/sicp.png" width="auto" height="100" alt="SICP Logo"/> <img src="documentation/logos/itsc.png" width="auto" height="100" alt="ITSC Logo"/> <img src="documentation/logos/is.png" width="auto" height="100" alt="ISML"/>
 
+*******
+MI-ILD
+*******
 
-This package is able to automatically test detect Information Leakage in a system that generated binary classification datasets.
+MI-ILD is the package is able to automatically test detect Information Leakage in a system that generated binary classification datasets.
+
 Installation
 ------------
 The latest release version of CS-Rank can be installed from Github as follows::
 	
 	pip install git+https://github.com/prithagupta/ML-ILD.git
 
-Another option is to clone the repository and install PY-SCA using::
+Another option is to clone the repository and install MI-ILD using::
 
 	python setup.py install
 
