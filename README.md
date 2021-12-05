@@ -40,4 +40,4 @@ You can cite our `AISec`_::
 
 License
 --------
-`Apache License, Version 2.0 <https://github.com/kiudee/cs-ranking/blob/master/LICENSE>`_
+[Apache License, Version 2.0](https://github.com/kiudee/cs-ranking/blob/master/LICENSE)
