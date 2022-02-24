@@ -9,6 +9,8 @@ import pandas as pd
 import scipy.stats as st
 from sklearn.preprocessing import StandardScaler
 
+from tensorflow.keras.optimizers import Adam, SGD
+
 warnings.filterwarnings('ignore')
 
 __all__ = ['create_dir_recursively', 'setup_logging', 'progress_bar', 'print_dictionary', 'str2bool',
@@ -160,3 +162,24 @@ def best_fit_distribution(data, logger, bins=200):
     logger.info("Best best_sse: " + str(best_sse))
     logger.info("Parameters for the best fit: " + str(best_params))
     return df, best_distribution.name, best_params
+
+
+def check_file_exists(file_path):
+    file_path = os.path.normpath(file_path)
+    if not os.path.exists(file_path):
+        print("Error: provided file path '%s' does not exist!" % file_path)
+        sys.exit(-1)
+    return
+
+
+def get_optimizer(solver, learning_rate, beta_1, beta_2, epsilon, momentum, nesterovs_momentum):
+    if solver.lower() == 'adam':
+        optimizer = Adam(learning_rate=learning_rate, beta_1=beta_1, beta_2=beta_2, epsilon=epsilon)
+    elif solver.lower() == 'sgd':
+        optimizer = SGD(learning_rate=learning_rate, momentum=momentum, nesterov=nesterovs_momentum)
+    else:
+        optimizer = None
+        logger.error('No suitable solver found for ' + solver)
+        sys.exit(-1)
+
+    return optimizer

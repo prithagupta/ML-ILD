@@ -10,3 +10,4 @@ python-dateutil>=2.4.1
 statsmodels
 matplotlib
 seaborn
+tensorflow==2.5.0
