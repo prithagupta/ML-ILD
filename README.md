@@ -26,21 +26,16 @@ Citing CS-Rank
 ----------------
 You can cite our `AISec` Paper_::
 
-	@inproceedings{autosca,
-		author = {Drees, Jan Peter and Gupta, Pritha and H\"{u}llermeier, Eyke and Jager, Tibor and Konze, Alexander and Priesterjahn, Claudia and Ramaswamy, Arunselvan and Somorovsky, Juraj},
-		title = {Automated Detection of Side Channels in Cryptographic Protocols: DROWN the ROBOTs!},
-		year = {2021},
-		isbn = {9781450386579},
-		publisher = {Association for Computing Machinery},
-		address = {New York, NY, USA},
-		url = {https://doi.org/10.1145/3474369.3486868},
-		doi = {10.1145/3474369.3486868},
-		booktitle = {Proceedings of the 14th ACM Workshop on Artificial Intelligence and Security},
-		pages = {169–180},
-		numpages = {12},
-		keywords = {tls, bleichenbacher, side channel, machine learning},
-		location = {Virtual Event, Republic of Korea},
-		series = {AISec '21}
+	@conference{icaart22,
+		author={Pritha Gupta. and Arunselvan Ramaswamy. and Jan Drees. and Eyke Hüllermeier. and Claudia Priesterjahn. and Tibor Jager.},
+		title={Automated Information Leakage Detection: A New Method Combining Machine Learning and Hypothesis Testing with an Application to Side-channel Detection in Cryptographic Protocols},
+		booktitle={Proceedings of the 14th International Conference on Agents and Artificial Intelligence - Volume 2: ICAART,},
+		year={2022},
+		pages={152-163},
+		publisher={SciTePress},
+		organization={INSTICC},
+		doi={10.5220/0010793000003116},
+		isbn={978-989-758-547-0},
 	}
 
 License
