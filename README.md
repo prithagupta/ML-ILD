@@ -24,7 +24,7 @@ MI-ILD depends on NumPy, SciPy, matplotlib, scikit-learn, joblib and tqdm. For d
 
 Citing CS-Rank
 ----------------
-You can cite our `AISec` Paper_::
+You can cite our `ICAART` Paper_::
 
 	@conference{icaart22,
 		author={Pritha Gupta. and Arunselvan Ramaswamy. and Jan Drees. and Eyke Hüllermeier. and Claudia Priesterjahn. and Tibor Jager.},
