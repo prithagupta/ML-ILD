@@ -22,7 +22,7 @@ Dependencies
 ------------
 MI-ILD depends on NumPy, SciPy, matplotlib, scikit-learn, joblib and tqdm. For data processing and generation you will also need and pandas.
 
-Citing CS-Rank
+Citing ML-ILD
 ----------------
 You can cite our `ICAART` Paper_::
 
