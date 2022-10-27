@@ -8,7 +8,7 @@ MAINTAINER = 'AutoSca'
 MAINTAINER_EMAIL = 'prithag@mail.uni-paderborn.de'
 VERSION = "1.0"
 LICENSE = "Apache"
-DOWNLOAD_URL = "https://git.cs.uni-paderborn.de/autosca/py-sca.git"
+DOWNLOAD_URL = "https://github.com/prithagupta/ML-ILD.git"
 PROJECT_ROOT = dirname(realpath(__file__))
 REQUIREMENTS_FILE = join(PROJECT_ROOT, 'requirements.txt')
 
