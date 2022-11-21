@@ -40,4 +40,4 @@ You can cite our `ICAART` Paper_::
 
 License
 --------
-[Apache License, Version 2.0](https://github.com/kiudee/cs-ranking/blob/master/LICENSE)
+[Apache License, Version 2.0](https://github.com/prithagupta/ML-ILD/blob/main/LICENSE)
