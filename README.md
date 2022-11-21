@@ -9,7 +9,7 @@ ML-ILD is the package is able to automatically test detect Information Leakage i
 
 Installation
 ------------
-The latest release version of CS-Rank can be installed from Github as follows::
+The latest release version of ML-ILD can be installed from Github as follows::
 	
 	pip install git+https://github.com/prithagupta/ML-ILD.git
 
