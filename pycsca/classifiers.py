@@ -8,6 +8,7 @@ from skopt.space import Categorical, Integer, Real
 from .baseline import *
 
 from .mlp import MultiLayerPerceptron
+from .mlp_tf import MultiLayerPerceptronTF
 
 custom_dict = {RandomClassifier.__name__: 0,
                MajorityVoting.__name__: 1,
@@ -22,7 +23,7 @@ custom_dict = {RandomClassifier.__name__: 0,
                DecisionTreeClassifier.__name__: 7,
                ExtraTreeClassifier.__name__: 8,
 
-               MultiLayerPerceptron.__name__: 9,
+               MultiLayerPerceptronTF.__name__: 9,
 
                RandomForestClassifier.__name__: 10,
                ExtraTreesClassifier.__name__: 11,

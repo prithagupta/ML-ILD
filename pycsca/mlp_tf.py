@@ -1,12 +1,13 @@
 import logging
 import os
 
+from keras import Sequential
+from keras.callbacks import ModelCheckpoint, EarlyStopping
+from keras.layers import Dense
+
 from pycsca.utils import get_optimizer, check_file_exists
 
 from sklearn.base import BaseEstimator, ClassifierMixin
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense
-from tensorflow.keras.callbacks import ModelCheckpoint, EarlyStopping
 
 
 class MultiLayerPerceptronTF(BaseEstimator, ClassifierMixin):

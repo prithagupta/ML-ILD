@@ -17,6 +17,7 @@ from statsmodels.stats.multitest import multipletests
 from pycsca import *
 from pycsca.mlp import MultiLayerPerceptron
 from pycsca.classification_test import optimize_search_cv_known
+from pycsca.mlp_tf import MultiLayerPerceptronTF
 
 
 def holm_bonferroni(data_frame, label, i, pval_col):
@@ -156,7 +157,7 @@ if __name__ == "__main__":
     start = datetime.now()
     cv_iterator = StratifiedKFold(n_splits=cv_iterations, shuffle=True, random_state=random_state)
     logger.info('cv_iterator {}'.format(cv_iterator))
-    mlp = MultiLayerPerceptron.__name__
+    mlp = MultiLayerPerceptronTF.__name__
     best_params_dict = dict()
     for label in synthetic_dataset_reader.labels:
         start_label = datetime.now()

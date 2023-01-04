@@ -179,7 +179,7 @@ def get_optimizer(solver, learning_rate, beta_1, beta_2, epsilon, momentum, nest
         optimizer = SGD(learning_rate=learning_rate, momentum=momentum, nesterov=nesterovs_momentum)
     else:
         optimizer = None
-        logger.error('No suitable solver found for ' + solver)
+        #logger.error('No suitable solver found for ' + solver)
         sys.exit(-1)
 
     return optimizer
